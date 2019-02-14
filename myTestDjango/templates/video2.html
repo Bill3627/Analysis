@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/video-js.min.css" rel="stylesheet">
+    <script src="/static/video.min.js"></script>
+</head>
+<body>
+    <main>
+    <center>
+    <video id="video_2" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"> <source src="/static/images/video2.mp4" type="video/mp4">
+    </video>
+        <div id="guide">
+            <form action="/index/" method="post">
+                <button id="btn1" type="submit">点我回到主页</button>
+            </form>
+            <form action="/video1/" method="post">
+                <button id="btn2" type="submit">第一集</button>
+            </form>
+            <form action="/video3/" method="post">
+                <button id="btn3" type="submit">第三集</button>
+            </form>
+        </div>
+    </center>
+    </main>
+</body>
+</html>
